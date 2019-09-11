@@ -1,0 +1,29 @@
+.half-rule-editarPerfil {
+    margin-left: 0;
+    margin-top: -5px;
+    text-align: left;
+    width: 150px;
+    border: 1px solid darkgray;
+}
+
+.half-rule-mensagens {
+    margin-left: 0;
+    margin-top: -5px;
+    text-align: left;
+    width: 150px;
+    border: 1px solid darkgray;
+}
+
+.half-rule-enviarmensagem {
+    margin-left: 0;
+    margin-top: -5px;
+    text-align: left;
+    width: 350px;
+    border: 1px solid darkgray;
+}
+
+
+.editarPerfil_header{
+  text-align: left;
+  margin-top: 40px;
+}

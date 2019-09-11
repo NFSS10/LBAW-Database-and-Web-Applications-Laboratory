@@ -1,0 +1,14 @@
+#adminInfo{
+	width: 75%;
+	display:table-cell;
+	
+}
+
+#all{
+	display: inline-table;
+	width:100%;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	height: 100%
+}

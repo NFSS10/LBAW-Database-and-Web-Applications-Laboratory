@@ -1,0 +1,17 @@
+.half-rule-following {
+	margin-left: 0;
+	margin-top: -5px;
+	text-align: left;
+	width: 140px;
+	border: 1px solid darkgray;
+}
+
+
+#following > tbody > tr > td:last-of-type {
+	width: 100px;
+}
+
+.following_header{
+	padding-left: 100px;
+	margin-top: 40px;
+}

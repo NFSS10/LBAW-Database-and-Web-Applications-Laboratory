@@ -1,0 +1,39 @@
+#forum_table img#profile_image {
+    margin: 3px 0px 3px 0px;
+}
+
+#forum_bc {
+    margin-top: 20px;
+}
+
+.forum_tb_heading {
+    background-color:#E6E6FA;
+}
+
+.qp_container {
+    margin: 20px 0px 20px 0px;
+    overflow: auto;
+}
+
+#add_question {
+    margin-bottom: 20px;
+}
+
+#new_question_butt{
+    margin-top: 10px;
+    margin-left: 55px;
+}
+
+#new_question_button_span {
+    padding-right: 5px;
+}
+
+#questions {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.replys {
+    display: none;
+    margin-top: 10px;
+}

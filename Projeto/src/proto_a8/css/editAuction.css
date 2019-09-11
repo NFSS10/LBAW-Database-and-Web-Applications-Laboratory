@@ -1,0 +1,15 @@
+#myCarousel{
+    max-width: 320px;
+    max-height: 200px;
+    margin-bottom: 30px;
+
+}
+
+
+#indicators {
+    margin-bottom: 30px;
+}
+
+.btn-glyphicon { padding:8px; background:#ffffff; margin-right:4px; }
+.icon-btn { padding: 1px 15px 3px 2px; border-radius:50px;}
+#foto_add { margin-top: 20px;}

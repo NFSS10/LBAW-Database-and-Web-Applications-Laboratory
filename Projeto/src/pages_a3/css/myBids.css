@@ -1,0 +1,21 @@
+.half-rule-bid {
+	margin-left: 0;
+	margin-top: -5px;
+	text-align: left;
+	width: 250px;
+	border: 1px solid darkgray;
+}
+
+#myBids  > thead > tr > th {
+	width: auto;
+	text-align: center;
+}
+
+.myBids_header{
+	padding-left: 100px;
+	margin-top: 40px;
+}
+
+#myBids > tbody > tr > td:last-of-type {
+	width: 200px;
+}

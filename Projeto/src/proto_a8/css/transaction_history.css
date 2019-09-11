@@ -1,0 +1,74 @@
+.half-rule-history {
+	margin-left: 0;
+	margin-top: -5px;
+	text-align: left;
+	width: 320px;
+	border: 1px solid darkgray;
+}
+
+.mytransitions_header{
+	padding-left: 100px;
+	margin-top: 40px;
+}
+
+#mytransitions  > thead > tr > th {
+	width: auto;
+	text-align: center;
+}
+
+#mytransitions  > tbody > tr > td {
+	width: auto;
+	text-align: center;
+}
+
+.checkboxTransitions label:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.checkboxTransitions .crTransitions {
+	position: relative;
+	display: inline-block;
+	border: 1px solid #a9a9a9;
+	border-radius: .25em;
+	width: 1.3em;
+	height: 1.3em;
+	float: left;
+	margin-right: .5em;
+}
+
+.crTransitions {
+	border-radius: 50%;
+}
+
+.checkboxTransitions .crTransitions .cr-icon-transitions {
+	position: absolute;
+	font-size: .8em;
+	line-height: 0;
+	top: 50%;
+	left: 20%;
+}
+
+.crTransitions .cr-icon-transitions {
+	margin-left: 0.04em;
+}
+
+.checkboxTransitions label input[type="checkbox"] {
+	display: none;
+}
+
+.checkboxTransitions label input[type="checkbox"] + .crTransitions > .cr-icon-transitions {
+	transform: scale(3) rotateZ(-20deg);
+	opacity: 0;
+	transition: all .3s ease-in;
+}
+
+.checkboxTransitions label input[type="checkbox"]:checked + .crTransitions > .cr-icon-transitions {
+	transform: scale(1) rotateZ(0deg);
+	opacity: 1;
+}
+
+.checkboxTransitions label input[type="checkbox"]:disabled + .crTransitions {
+	opacity: .5;
+}
